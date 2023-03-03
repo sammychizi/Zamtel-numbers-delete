@@ -1,0 +1,99 @@
+body{
+    text-align: center;
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    background-color: #0DAE4A;
+    color: white;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+}
+.delete-button{
+    border: none;
+    border-radius: 5px;
+    background-color: #0DAE4A;
+    color: white;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    padding: 10px 30px 10px 30px;
+}
+.delete-card{
+    margin-top: 0px;
+    margin-left: 0px;
+    border:1px solid black;
+    padding: 1.5px;
+    border-radius: 5px;
+    width: 600px auto;
+    height: fit-content;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    box-shadow: slategray 0px 5px 15px;
+}
+.delete-button2{
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(112, 128, 144, 0.75);
+    color: white;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin: 20px auto;
+    margin-left: 50px;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    padding: 10px 18px 10px 18px;
+}
+.error{
+    color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin: 0px 0px 5px 0px;}
+.input{
+    border: 2px solid slategray;
+    padding: 4px;
+    border-radius: 5px;
+    width: 500px;
+    height: 30px;
+}
+.num-to-delete{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: rgb(49, 49, 49);
+}
+input::placeholder {
+    color: rgba(112, 128, 144, 0.751);
+    font-size: 20px;
+    padding: auto auto auto 10px;
+}
+input[type=text]{ 
+    text-align: left;
+    font-family: 'Golos Text', sans-serif;
+    font-size: 20px;
+    color: rgb(49, 49, 49);
+}
+.card{
+    border:1px solid black;
+    padding: 1.5px;
+    border-radius: 5px;
+    width: 600px;
+    height: fit-content;
+    padding: 20px 10px 20px 10px;
+    text-align: center;
+    margin: 150px 500px 0px 480px;
+    box-shadow: slategray 0px 5px 15px;
+}
+h1{
+    font-family: 'Golos Text', sans-serif;
+    font-size: 30px;
+    color: rgb(49, 49, 49);
+}
